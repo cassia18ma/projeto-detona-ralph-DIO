@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+    background-color: #052001;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.menu-start {
+    text-align: center;
+    margin: 20px;
+}
+
+#start-button {
+    background-color: #72e272;
+    padding: 20px;
+    color: #000000;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: inset -3px -5px 5px #005307;
+}
+
+#start-button:hover {
+    background-color: #b4ffb4;
+}
+
+/*#start-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}*/
+
+.panel {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 150px;
+    border: 1px solid #40aff0;
+    width: 150px;
+    background-color: #02112e;
+    box-shadow: 40px 10px 20px rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+.enemy {
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d6fafa;
+}
+
+.menu-time h2:nth-child(1),
+.menu-score h2:nth-child(1) {
+    color: #ffe927;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 10px;
+    color: #d6fafa;
+}
+
+.scoreboard {
+    margin-top: 60px;
+    text-align: center;
+    color: #fffcd4;
+}
+
+.scoreboard h2 {
+    margin: 15px;
+}
+
+.scoreboard table {
+    box-shadow: 10px 10px 10px #111111;
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #f4ffb9;
+    color: #000000;
+}
+
+.scoreboard th,
+.scoreboard td {
+    border: 1px solid #0a0a0a;
+    padding: 8px;
+}
+
+.scoreboard th {
+    background-color: #fffdf0;
+}
