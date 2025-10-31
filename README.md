@@ -35,7 +35,7 @@ As melhorias futuras podem incluir sons extras, níveis de dificuldade, animaç�
 ---
 
 ## 📁 Estrutura do Projeto
-
+```
 /detona-ralph
 │
 ├── index.html
@@ -50,7 +50,7 @@ As melhorias futuras podem incluir sons extras, níveis de dificuldade, animaç�
 │ └── player.png
 │ └── /sounds
 │ └── hit.m4a
-
+```
 ---
 
 ## 🚀 Tecnologias Utilizadas
